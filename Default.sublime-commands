@@ -1,0 +1,14 @@
+[
+  {
+    "caption": "Edge Theme: Activation",
+    "command": "edge_activate"
+  },
+  {
+    "caption": "Edge Theme: Preferences",
+    "command": "edit_settings", "args":
+    {
+        "base_file": "${packages}/Edge Theme/Preferences.sublime-settings",
+        "default": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n"
+    }
+  }
+]

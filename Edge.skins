@@ -1,0 +1,53 @@
+{
+  "Edge Night Sky": {
+    "Preferences": {
+
+      // Activation
+
+      "color_scheme": "Packages/Edge Theme/Edge Night Sky.tmTheme",
+      "theme": "Edge Night Sky.sublime-theme",
+
+      // Reset
+
+      "edge_sidebar_font_small": false,
+      "edge_sidebar_font_normal": false,
+      "edge_sidebar_font_large": false,
+      "edge_sidebar_font_xlarge": false,
+      "edge_use_sidebar_icons": false
+     }
+  },
+  "Edge Serene": {
+    "Preferences": {
+
+      // Activation
+
+      "color_scheme": "Packages/Edge Theme/Edge Serene.tmTheme",
+      "theme": "Edge Serene.sublime-theme",
+
+      // Reset
+
+      "edge_sidebar_font_small": false,
+      "edge_sidebar_font_normal": false,
+      "edge_sidebar_font_large": false,
+      "edge_sidebar_font_xlarge": false,
+      "edge_use_sidebar_icons": false
+     }
+  },
+  "Edge Ocean": {
+    "Preferences": {
+
+      // Activation
+
+      "color_scheme": "Packages/Edge Theme/Edge Ocean.tmTheme",
+      "theme": "Edge Ocean.sublime-theme",
+
+      // Reset
+
+      "edge_sidebar_font_small": false,
+      "edge_sidebar_font_normal": false,
+      "edge_sidebar_font_large": false,
+      "edge_sidebar_font_xlarge": false,
+      "edge_use_sidebar_icons": false
+     }
+  }
+}
