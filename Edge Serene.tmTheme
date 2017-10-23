@@ -621,6 +621,130 @@
 			
 		</dict>
 		
+		<dict>
+			<key>name</key>
+			<string>Markup Heading</string>
+			<key>scope</key>
+			<string>markup.heading</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>fontStyle</key>
+				<string>bold</string>
+				
+				<key>foreground</key>
+				<string>#C52830</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup Links</string>
+			<key>scope</key>
+			<string>string.other.link, markup.underline.link</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>fontStyle</key>
+				<string>italic underline</string>
+				
+				<key>foreground</key>
+				<string>#3A8F2B</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup Code</string>
+			<key>scope</key>
+			<string>markup.raw</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>background</key>
+				<string>#F5ECD2</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup Code Inline</string>
+			<key>scope</key>
+			<string>markup.raw.inline</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>background</key>
+				<string>#F5ECD2</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup Blockquote</string>
+			<key>scope</key>
+			<string>markup.quote</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>fontStyle</key>
+				<string>italic</string>
+				
+				<key>foreground</key>
+				<string>#1FA1AD</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup List Bullet</string>
+			<key>scope</key>
+			<string>markup.list.numbered.bullet, markup.list punctuation.definition.list_item</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#632F44</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup Table</string>
+			<key>scope</key>
+			<string>markup.table</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>background</key>
+				<string>#DDC990</string>
+				
+				<key>foreground</key>
+				<string>#805330</string>
+				
+			</dict>
+			
+		</dict>
+		
 		
 		<dict>
 			<key>name</key>
@@ -841,6 +965,54 @@
 				
 				<key>foreground</key>
 				<string>#e84855</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup Italic</string>
+			<key>scope</key>
+			<string>markup.italic</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>fontStyle</key>
+				<string>italic</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup Bold</string>
+			<key>scope</key>
+			<string>markup.bold</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>fontStyle</key>
+				<string>bold</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup Bold/italic</string>
+			<key>scope</key>
+			<string>markup.italic markup.bold | markup.bold markup.italic</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>fontStyle</key>
+				<string>bold italic</string>
 				
 			</dict>
 			

@@ -1,3 +1,9 @@
+###v1.0.1
+___
+
+* Add Markup styling and colors
+
+
 ###v1.0.0
 ___
 
