@@ -62,12 +62,13 @@ For the Ocean theme:
 "edge_sidebar_font_normal": false, // use a normal font in the sidebar
 "edge_sidebar_font_large": false, // use a large font in the sidebar
 "edge_sidebar_font_xlarge": false, // use an extra large font in the sidebar
-"edge_use_sidebar_folder_icons": true // use folder icons in the sidebar
+"edge_use_sidebar_folder_icons": true, // use folder icons in the sidebar
+"edge_use_font_face": true // use the custom font for the UI
 ```
 
 ### Font
 
-`Edge` uses [__Hack__](http://sourcefoundry.org/hack/) as main font and it's highly recommended to install it to get a monospaced font in the filetree. But if you don't have it then the UI theme will downgrade to standard UI font used in Sublime Text.
+`Edge` uses [__Hack__](http://sourcefoundry.org/hack/) as main font and it's highly recommended to install it to get a monospaced font in the filetree. But if you don't have it then the UI theme will downgrade to standard UI font used in Sublime Text. You can also disable it via `Edge Theme: Preferences`.
 
 ### File Icons
 
