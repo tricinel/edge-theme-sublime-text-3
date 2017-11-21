@@ -1,3 +1,8 @@
+###v1.0.4
+___
+
+* Fix Serene tab icons
+
 ###v1.0.3
 ___
 
