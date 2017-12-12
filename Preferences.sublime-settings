@@ -19,6 +19,8 @@
 //    1.1 Font sizes
 //    1.2 Font faces
 //    1.3 Icons
+//  2 Tabs
+//    2.1 Background style
 
 {
   // > 1 Sidebar
@@ -27,7 +29,7 @@
   // Sidebar options enable you to control some aspects of UI appearance at once.
 
   //
-  // >> 1.1 Font sizez
+  // >> 1.1 Font sizes
   // Choose one option from this section
 
   "edge_sidebar_font_small": false,
@@ -43,5 +45,15 @@
   // >> 1.3 Icons
   // Choose whether to show the folder and file icons in the sidebar
 
-  "edge_use_sidebar_folder_icons": true
+  "edge_use_sidebar_folder_icons": true,
+
+  // > 2 Tabs
+  // -----------------------------------
+
+  // Tab options enable you to control some aspects of UI appearance at once.
+
+  //
+  // >> 2.1 Font sizes
+  // Choose whether to use the full background color for the active tabs or not
+  "edge_use_tab_backgrounds": true
 }

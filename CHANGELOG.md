@@ -1,3 +1,15 @@
+###v1.1.0
+___
+
+* Add option to set tab background colors to full color or use a bottom line to highlight it
+* Further improvements to the Serene tab colors
+
+###v1.0.5
+___
+
+* Fix the blurry icons in the tabs for all theme variants
+* Fix Serene background color for the active tab
+
 ###v1.0.4
 ___
 
