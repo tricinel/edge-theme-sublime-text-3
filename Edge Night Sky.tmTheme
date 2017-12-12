@@ -7,7 +7,7 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>edge.nightsky</string>
+	<string>edge.theme.nightsky</string>
 	<key>name</key>
 	<string>Edge Night Sky</string>
 	<key>uuid</key>
