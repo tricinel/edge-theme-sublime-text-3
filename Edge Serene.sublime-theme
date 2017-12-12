@@ -1003,7 +1003,7 @@
     "class": "tab_control",
     "attributes": ["selected"],
     "layer0.texture": "",
-    "layer0.tint": [212,71,77],
+    "layer0.tint": [234,225,203],
   },
   // Tab label
   {
@@ -1024,7 +1024,7 @@
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control","attributes": ["selected"]}],
-    "fg": [253,246,227]
+    "fg": [128,83,48]
   },
   {
     "class": "tab_label",
