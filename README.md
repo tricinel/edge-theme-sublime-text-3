@@ -6,6 +6,8 @@
 
 ### Recommended
 
+[![Total Downloads][total-downloads-badge]][total-downloads]
+
 You can install `Edge` via [Package Control](https://packagecontrol.io/).
 
 1. Press <kbd>cmd/ctrl</kbd> + <kbd>shift</kbd> + <kbd>p</kbd> to open the command palette.
@@ -91,3 +93,6 @@ For the Ocean theme:
 ## Contributing to Edge
 
 **Please check the CONTRIBUTING.md file before forking this repo!**
+
+[total-downloads-badge]: https://img.shields.io/packagecontrol/dt/Edge%20Theme.svg?style=flat-square
+[total-downloads]: https://packagecontrol.io/packages/Edge%20Theme
