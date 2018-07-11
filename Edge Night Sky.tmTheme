@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string></string>
+	<string>Bogdan Lazar</string>
 	<key>colorSpaceName</key>
-	<string></string>
+	<string>sRGB</string>
 	<key>semanticClass</key>
 	<string>edge.theme.nightsky</string>
 	<key>name</key>

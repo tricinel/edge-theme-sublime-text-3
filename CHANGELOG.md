@@ -1,3 +1,9 @@
+###v2.0.1
+
+---
+
+- Fix corrupt theme files because of missing props in the build process
+
 ###v2.0.0
 
 ---
