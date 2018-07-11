@@ -1,6 +1,6 @@
 // Edge Serene
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// Superb theme for Sublime Text 3
+// 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [
@@ -47,7 +47,7 @@
    "class": "label_control",
    "settings": ["edge_use_font_face"],
    "parents": [{"class": "button_control"}],
-   "font.face": "Hack"
+   "font.face": ""
   },
   {
    "class": "label_control",
@@ -100,26 +100,26 @@
     "class": "icon_folder",
     "settings": ["edge_use_sidebar_folder_icons"],
     "content_margin": [7, 5],
-    "layer0.texture": "Edge Theme/assets/icons/serene/folder.png",
+    "layer0.texture": "/icons/serene/folder.png",
     "layer0.opacity": 1,
-    "layer1.texture": "Edge Theme/assets/icons/serene/folder-expanded.png",
+    "layer1.texture": "/icons/serene/folder-expanded.png",
     "layer1.opacity": 0.0,
-    "layer2.texture": "Edge Theme/assets/icons/serene/folder-hover.png",
+    "layer2.texture": "/icons/serene/folder-hover.png",
     "layer2.opacity": 0.0,
-    "layer3.texture": "Edge Theme/assets/icons/serene/folder-expanded-hover.png",
+    "layer3.texture": "/icons/serene/folder-expanded-hover.png",
     "layer3.opacity": 0.0
   },
   {
     "class": "icon_folder",
     "settings": ["!edge_use_sidebar_folder_icons"],
     "content_margin": [7, 5],
-    "layer0.texture": "Edge Theme/assets/icons/serene/arrow-folder-right.png",
+    "layer0.texture": "/icons/serene/arrow-folder-right.png",
     "layer0.opacity": 1,
-    "layer1.texture": "Edge Theme/assets/icons/serene/arrow-folder-down.png",
+    "layer1.texture": "/icons/serene/arrow-folder-down.png",
     "layer1.opacity": 0.0,
-    "layer2.texture": "Edge Theme/assets/icons/serene/arrow-folder-right-hover.png",
+    "layer2.texture": "/icons/serene/arrow-folder-right-hover.png",
     "layer2.opacity": 0.0,
-    "layer3.texture": "Edge Theme/assets/icons/serene/arrow-folder-up.png",
+    "layer3.texture": "/icons/serene/arrow-folder-up.png",
     "layer3.opacity": 0.0
   },
   {
@@ -150,7 +150,7 @@
   {
     "class": "icon_folder_dup",
     "settings": ["edge_use_sidebar_folder_icons"],
-    "layer0.texture": "Edge Theme/assets/icons/serene/folder-symlink.png",
+    "layer0.texture": "/icons/serene/folder-symlink.png",
     "layer0.opacity": 1.0,
     "content_margin": [11, 7]
   },
@@ -158,24 +158,24 @@
     "class": "icon_folder_dup",
     "settings": ["edge_use_sidebar_folder_icons"],
     "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
-    "layer0.texture": "Edge Theme/assets/icons/serene/folder-symlink-hover.png"
+    "layer0.texture": "/icons/serene/folder-symlink-hover.png"
   },
   {
     "class": "icon_folder_dup",
     "settings": ["edge_use_sidebar_folder_icons"],
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
-    "layer0.texture": "Edge Theme/assets/icons/serene/folder-symlink-expanded.png"
+    "layer0.texture": "/icons/serene/folder-symlink-expanded.png"
   },
   {
     "class": "icon_folder_dup",
     "settings": ["edge_use_sidebar_folder_icons"],
     "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"] }],
-    "layer0.texture": "Edge Theme/assets/icons/serene/folder-symlink-expanded-hover.png"
+    "layer0.texture": "/icons/serene/folder-symlink-expanded-hover.png"
   },
   {
     "class": "icon_folder_dup",
     "settings": ["!edge_use_sidebar_folder_icons"],
-    "layer0.texture": "Edge Theme/assets/icons/serene/arrow-folder-right.png",
+    "layer0.texture": "/icons/serene/arrow-folder-right.png",
     "layer0.opacity": 1.0,
     "content_margin": [11, 7]
   },
@@ -183,19 +183,19 @@
     "class": "icon_folder_dup",
     "settings": ["!edge_use_sidebar_folder_icons"],
     "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
-    "layer0.texture": "Edge Theme/assets/icons/serene/arrow-folder-right-hover.png"
+    "layer0.texture": "/icons/serene/arrow-folder-right-hover.png"
   },
   {
     "class": "icon_folder_dup",
     "settings": ["!edge_use_sidebar_folder_icons"],
     "parents": [{"class": "tree_row", "attributes": ["expanded"] }],
-    "layer0.texture": "Edge Theme/assets/icons/serene/arrow-folder-down.png"
+    "layer0.texture": "/icons/serene/arrow-folder-down.png"
   },
   {
     "class": "icon_folder_dup",
     "settings": ["!edge_use_sidebar_folder_icons"],
     "parents": [{"class": "tree_row", "attributes": ["expanded", "hover"] }],
-    "layer0.texture": "Edge Theme/assets/icons/serene/arrow-folder-up.png"
+    "layer0.texture": "/icons/serene/arrow-folder-up.png"
   },
   // Opened files
   {
@@ -203,12 +203,12 @@
     "content_margin": [8, 8],
   
     // Default Close icon
-    "layer0.texture": "Edge Theme/assets/icons/serene/file-close.png",
+    "layer0.texture": "/icons/serene/file-close.png",
     "layer0.opacity": { "target": 0.0, "speed": 7.0, "interpolation": "smoothstep" },
     "layer0.inner_margin": [0,0],
   
     // Hover close icon
-    "layer1.texture": "Edge Theme/assets/icons/serene/file-close-active.png",
+    "layer1.texture": "/icons/serene/file-close-active.png",
     "layer1.opacity": 0,
     "layer1.inner_margin": [0,0],
   },
@@ -220,14 +220,14 @@
       { "class": "tree_row", "attributes": ["hover"] }
     ],
     // Default Close icon
-    "layer0.texture": "Edge Theme/assets/icons/serene/file-close.png",
+    "layer0.texture": "/icons/serene/file-close.png",
     "layer0.opacity": { "target": 1.0, "speed": 7.0, "interpolation": "smoothstep" },
     "layer0.inner_margin": [0,0],
   },
   {
     "class": "close_button",
     "attributes": ["dirty"],
-    "layer0.texture": "Edge Theme/assets/icons/serene/file-dirty.png",
+    "layer0.texture": "/icons/serene/file-dirty.png",
     "layer0.opacity": 1.0,
   },
   {
@@ -242,20 +242,20 @@
     "content_margin": [8, 8],
   
      // Close Icon
-    "layer0.texture": "Edge Theme/assets/icons/serene/file-close.png",
+    "layer0.texture": "/icons/serene/file-close.png",
     "layer0.opacity": 1,
     "layer0.inner_margin": 0,
   
     // Close Icon Hover
-    "layer1.texture": "Edge Theme/assets/icons/serene/file-close-active.png",
+    "layer1.texture": "/icons/serene/file-close-active.png",
     "layer1.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
   
      // Dirty Icon
-    "layer2.texture": "Edge Theme/assets/icons/serene/file-dirty.png",
+    "layer2.texture": "/icons/serene/file-dirty.png",
     "layer2.inner_margin": 0,
   
     // Dirty Icon Hover
-    "layer3.texture": "Edge Theme/assets/icons/serene/file-dirty-active.png",
+    "layer3.texture": "/icons/serene/file-dirty-active.png",
     "layer3.opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" }
   },
   // Selected Tab
@@ -323,10 +323,10 @@
   {
     "class": "scroll_tabs_left_button",
     "content_margin": [10, 9],
-    "layer0.texture": "Edge Theme/assets/icons/serene/arrow-left.png",
+    "layer0.texture": "/icons/serene/arrow-left.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": 0,
-    "layer1.texture": "Edge Theme/assets/icons/serene/arrow-left-active.png",
+    "layer1.texture": "/icons/serene/arrow-left-active.png",
     "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
     "layer1.inner_margin": 0,
   },
@@ -338,10 +338,10 @@
   {
     "class": "scroll_tabs_right_button",
     "content_margin": [10, 9],
-    "layer0.texture": "Edge Theme/assets/icons/serene/arrow-right.png",
+    "layer0.texture": "/icons/serene/arrow-right.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": 0,
-    "layer1.texture": "Edge Theme/assets/icons/serene/arrow-right-active.png",
+    "layer1.texture": "/icons/serene/arrow-right-active.png",
     "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
     "layer1.inner_margin": 0,
   },
@@ -353,10 +353,10 @@
   {
     "class": "show_tabs_dropdown_button",
     "content_margin": [8, 12],
-    "layer0.texture": "Edge Theme/assets/icons/serene/overflow-menu.png",
+    "layer0.texture": "/icons/serene/overflow-menu.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": 0,
-    "layer1.texture": "Edge Theme/assets/icons/serene/overflow-menu-active.png",
+    "layer1.texture": "/icons/serene/overflow-menu-active.png",
     "layer1.opacity": { "target": 0.0, "speed": 8.0, "interpolation": "smoothstep" },
     "layer1.inner_margin": 0
   },
@@ -368,10 +368,10 @@
   // Code folding
   {
     "class": "fold_button_control",
-    "layer0.texture": "Edge Theme/assets/icons/serene/fold-right.png",
+    "layer0.texture": "/icons/serene/fold-right.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": 0,
-    "layer1.texture": "Edge Theme/assets/icons/serene/fold-right-active.png",
+    "layer1.texture": "/icons/serene/fold-right-active.png",
     "layer1.opacity": 0.0,
     "layer1.inner_margin": 0,
     "content_margin": [9, 7, 8, 6]
@@ -387,16 +387,16 @@
   {
     "class": "fold_button_control",
     "attributes": ["expanded"],
-    "layer0.texture": "Edge Theme/assets/icons/serene/fold-down.png",
-    "layer1.texture": "Edge Theme/assets/icons/serene/fold-down-active.png"
+    "layer0.texture": "/icons/serene/fold-down.png",
+    "layer1.texture": "/icons/serene/fold-down-active.png"
   },
   // Button icons
   // Regex Icon
   {
     "class": "icon_regex",
-    "layer0.texture": "Edge Theme/assets/icons/serene/find-regex-hover.png",
+    "layer0.texture": "/icons/serene/find-regex-hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Edge Theme/assets/icons/serene/find-regex.png",
+    "layer1.texture": "/icons/serene/find-regex.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -409,9 +409,9 @@
   // Preserve case sensitive
   {
     "class": "icon_case",
-    "layer0.texture": "Edge Theme/assets/icons/serene/find-case-hover.png",
+    "layer0.texture": "/icons/serene/find-case-hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Edge Theme/assets/icons/serene/find-case.png",
+    "layer1.texture": "/icons/serene/find-case.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -424,9 +424,9 @@
   // Wholeword
   {
     "class": "icon_whole_word",
-    "layer0.texture": "Edge Theme/assets/icons/serene/find-word-hover.png",
+    "layer0.texture": "/icons/serene/find-word-hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Edge Theme/assets/icons/serene/find-word.png",
+    "layer1.texture": "/icons/serene/find-word.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -439,9 +439,9 @@
   // Wrap
   {
     "class": "icon_wrap",
-    "layer0.texture": "Edge Theme/assets/icons/serene/find-wrap-hover.png",
+    "layer0.texture": "/icons/serene/find-wrap-hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Edge Theme/assets/icons/serene/find-wrap.png",
+    "layer1.texture": "/icons/serene/find-wrap.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -454,9 +454,9 @@
   // In selection
   {
     "class": "icon_in_selection",
-    "layer0.texture": "Edge Theme/assets/icons/serene/find-inselection-hover.png",
+    "layer0.texture": "/icons/serene/find-inselection-hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Edge Theme/assets/icons/serene/find-inselection.png",
+    "layer1.texture": "/icons/serene/find-inselection.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12,12]
   },
@@ -469,9 +469,9 @@
   // Highlight Result
   {
     "class": "icon_highlight",
-    "layer0.texture": "Edge Theme/assets/icons/serene/find-highlight-hover.png",
+    "layer0.texture": "/icons/serene/find-highlight-hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Edge Theme/assets/icons/serene/find-highlight.png",
+    "layer1.texture": "/icons/serene/find-highlight.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -484,9 +484,9 @@
   // Preserve Case
   {
     "class": "icon_preserve_case",
-    "layer0.texture": "Edge Theme/assets/icons/serene/replace-preserve-case-hover.png",
+    "layer0.texture": "/icons/serene/replace-preserve-case-hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Edge Theme/assets/icons/serene/replace-preserve-case.png",
+    "layer1.texture": "/icons/serene/replace-preserve-case.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -499,9 +499,9 @@
   // Show context
   {
     "class": "icon_context",
-    "layer0.texture": "Edge Theme/assets/icons/serene/find-context-hover.png",
+    "layer0.texture": "/icons/serene/find-context-hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Edge Theme/assets/icons/serene/find-context.png",
+    "layer1.texture": "/icons/serene/find-context.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -514,9 +514,9 @@
   // Use buffer
   {
     "class": "icon_use_buffer",
-    "layer0.texture": "Edge Theme/assets/icons/serene/use-buffer-hover.png",
+    "layer0.texture": "/icons/serene/use-buffer-hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Edge Theme/assets/icons/serene/use-buffer.png",
+    "layer1.texture": "/icons/serene/use-buffer.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -529,9 +529,9 @@
   // Reverse direction
   {
     "class": "icon_reverse",
-    "layer0.texture": "Edge Theme/assets/icons/serene/find-reverse-hover.png",
+    "layer0.texture": "/icons/serene/find-reverse-hover.png",
     "layer0.opacity": { "target": 0.0, "speed": 6.0, "interpolation": "smoothstep" },
-    "layer1.texture": "Edge Theme/assets/icons/serene/find-reverse.png",
+    "layer1.texture": "/icons/serene/find-reverse.png",
     "layer1.opacity": { "target": 1.0, "speed": 6.0, "interpolation": "smoothstep" },
     "content_margin": [12, 12]
   },
@@ -598,7 +598,7 @@
     "class": "label_control",
     "settings": ["edge_use_font_face"],
     "parents": [{"class": "panel_control"}],
-    "font.face": "Hack"
+    "font.face": ""
   },
   // Mini Quick Panel
   {
@@ -609,7 +609,7 @@
   {
     "class": "mini_quick_panel_row",
     "attributes": ["selected"],
-    "layer0.tint": [212,71,77],
+    "layer0.tint": [128,83,48],
   },
   // Code Completion Dropdown
   {
@@ -625,7 +625,7 @@
   {
     "class": "auto_complete_label",
     "fg": [128,83,48],
-    "match_fg": [212,71,77],
+    "match_fg": [128,83,48],
     "selected_fg": [234,225,203],
     "selected_match_fg": [0,0,0]
   },
@@ -672,13 +672,13 @@
   {
     "class": "quick_panel_label",
     "fg": [128,83,48],
-    "match_fg": [212,71,77],
+    "match_fg": [128,83,48],
     "selected_fg": [234,225,203],
     "selected_match_fg": [0,0,0]
   },
   {
     "class": "quick_panel_path_label",
-    "fg": [212,71,77],
+    "fg": [128,83,48],
     "match_fg": [128,83,48],
     "selected_fg": [234,225,203],
     "selected_match_fg": [0,0,0]
@@ -743,7 +743,7 @@
   {
     "class": "sidebar_label",
     "settings": ["edge_use_font_face"],
-    "font.face": "Hack"
+    "font.face": ""
   },
   {
     "class": "sidebar_label",
@@ -769,7 +769,7 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-    "color": [212,71,77]
+    "color": [128,83,48]
   },
   {
     "class": "sidebar_label",
@@ -778,7 +778,7 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["hover"]}],
-    "color": [212,71,77]
+    "color": [128,83,48]
   },
   {
     "class": "sidebar_label",
@@ -821,7 +821,7 @@
     "layer0.tint": [253,246,227],
     "layer0.inner_margin": [0, 3],
     "layer0.opacity": 1.0,
-    "layer1.texture": "Edge Theme/assets/icons/serene/scrollbar.png",
+    "layer1.texture": "/icons/serene/scrollbar.png",
     "layer1.opacity": 1.0,
     "layer1.inner_margin": [0, 3],
     "blur": false
@@ -833,7 +833,7 @@
     "layer0.tint": [253,246,227],
     "layer0.inner_margin": [0, 3],
     "layer0.opacity": 1.0,
-    "layer1.texture": "Edge Theme/assets/icons/serenescrollbar.png",
+    "layer1.texture": "/icons/serenescrollbar.png",
     "layer1.opacity": 1.0,
     "layer1.inner_margin": [3, 0],
     "blur": false
@@ -841,7 +841,7 @@
   // Scrollbars corner
   {
     "class": "scroll_corner_control",
-    "layer0.texture": "Edge Theme/assets/icons/serene/scrollbar.png",
+    "layer0.texture": "/icons/serene/scrollbar.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [1, 1]
   },
@@ -851,7 +851,7 @@
     "layer0.tint": [253,246,227,20],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [5, 5],
-    "layer1.texture": "Edge Theme/assets/icons/serene/thumb-vertical.png",
+    "layer1.texture": "/icons/serene/thumb-vertical.png",
     "layer1.opacity": 1.0,
     "layer1.inner_margin": [4, 4],
     "content_margin": [3, 8],
@@ -861,7 +861,7 @@
   {
     "class": "puck_control",
     "attributes": ["horizontal"],
-    "layer0.texture": "Edge Theme/assets/icons/serene/thumb-horizontal.png",
+    "layer0.texture": "/icons/serene/thumb-horizontal.png",
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [10, 0],
     "content_margin": [16, 6],
@@ -892,7 +892,7 @@
   {
     "class": "scroll_bar_control",
     "settings": ["overlay_scroll_bars"],
-    "layer0.texture": "Edge Theme/assets/icons/serene/scrollbar.png",
+    "layer0.texture": "/icons/serene/scrollbar.png",
     "layer0.inner_margin": [0, 5],
     "blur": true
   },
@@ -900,10 +900,10 @@
     "class": "scroll_bar_control",
     "settings": ["overlay_scroll_bars"],
     "attributes": ["horizontal"],
-    "layer0.texture": "Edge Theme/assets/icons/serenescrollbar.png",
+    "layer0.texture": "/icons/serenescrollbar.png",
     "layer0.inner_margin": [5, 0],
     "layer0.opacity": 0.0,
-    "layer1.texture": "Edge Theme/assets/icons/serenescrollbar.png",
+    "layer1.texture": "/icons/serenescrollbar.png",
     "layer1.inner_margin": [5, 0],
     "layer1.opacity": 0.0,
     "blur": true
@@ -913,7 +913,7 @@
     "layer0.tint": [128,83,48],
     "layer0.opacity": 0.0,
     "layer0.inner_margin": [1, 8, 1, 8],
-    "layer1.texture": "Edge Theme/assets/icons/serene/thumb-vertical.png",
+    "layer1.texture": "/icons/serene/thumb-vertical.png",
     "layer1.inner_margin": [1, 8, 1, 8],
     "content_margin": [3, 8],
     "blur": true
@@ -924,7 +924,7 @@
     "layer0.tint": [128,83,48],
     "layer0.opacity": 0.0,
     "layer0.inner_margin": [8, 1, 8, 1],
-    "layer1.texture": "Edge Theme/assets/icons/serene/thumb-horizontal.png",
+    "layer1.texture": "/icons/serene/thumb-horizontal.png",
     "layer1.inner_margin": [8, 1, 8, 1],
     "content_margin": [16, 6],
     "blur": true
@@ -955,13 +955,13 @@
     "class": "label_control",
     "settings": ["edge_use_font_face"],
     "parents": [{"class": "status_bar"}],
-    "font.face": "Hack"
+    "font.face": ""
   },
   // Status bar panel switcher button
   {
     "class": "panel_button_control",
     "parents": [{"class": "status_bar"}],
-    "layer0.texture": "Edge Theme/assets/icons/serene/panel-switch.png",
+    "layer0.texture": "/icons/serene/panel-switch.png",
     "layer0.opacity": 1.0,
     "content_margin": [15, 7]
   },
@@ -991,7 +991,7 @@
     "layer0.texture": "",
     "layer0.tint": [253,246,227],
     "layer1.tint": [242,234,213],
-    "layer2.texture": "Edge Theme/assets/icons/serene/tab-current.png",
+    "layer2.texture": "/icons/serene/tab-current.png",
     "layer0.inner_margin": [5, 5],
     "layer0.opacity": 1,
     "layer1.opacity": 0,
@@ -1040,7 +1040,7 @@
   {
     "class": "tab_label",
     "settings": ["edge_use_font_face"],
-    "font.face": "Hack"
+    "font.face": ""
   },
   {
     "class": "tab_label",
