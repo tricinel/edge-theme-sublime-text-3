@@ -2,9 +2,9 @@
 
 # What is Edge?
 
-`Edge` is a simple theme with bright colors. Edge comes in three versions — *Night Sky*, *Serene* and *Ocean* for all day long comfortable work. The theme has a few customisable options to help you personalise your experience with it.
+`Edge` is a simple theme with bright colors. Edge comes in 3 versions — *Edge Night Sky*, *Edge Ocean* and *Edge Serene* for all day long comfortable work.
 
-I've designed Edge with a multi-editor process in mind, so that the same theme can be reused on multiple editors, starting with Sublime Text 3 in its initial release and counting on VSCode and Atom support in later versions.
+I've designed Edge with a multi-editor process in mind, so that the same theme can be reused on multiple editors, including .
 
 As such, the process implies all development work to be done in [the main repo](https://github.com/tricinel/edge-theme), where I have setup a bunch of tasks to make development easy.
 

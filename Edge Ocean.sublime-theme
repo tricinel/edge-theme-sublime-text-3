@@ -52,14 +52,14 @@
   {
    "class": "label_control",
    "parents": [{"class": "button_control", "attributes": ["hover"]}],
-   "color": [2,11,15]
+   "color": [0,0,0]
   },
   {
     "class": "button_control",
     "content_margin": [3, 12, 3, 12],
     "min_size": [80, 0],
     "layer1.tint": [1,22,56],
-    "layer2.tint": [28,147,193],
+    "layer2.tint": [24,84,179],
     "layer0.opacity": 0.0,
     "layer0.inner_margin": [3, 3],
     "layer1.opacity": 1.0,
@@ -585,7 +585,7 @@
     "class": "panel_control",
     "layer0.inner_margin": [0,0],
     "layer0.opacity": 1,
-    "layer0.tint": [15,79,104],
+    "layer0.tint": [12,42,89],
     "content_margin": 0
   },
   // Labels
@@ -603,7 +603,7 @@
   // Mini Quick Panel
   {
     "class": "mini_quick_panel_row",
-    "layer0.tint": [15,79,104],
+    "layer0.tint": [12,42,89],
     "layer0.opacity": 1
   },
   {
@@ -615,7 +615,7 @@
   {
     "class": "popup_control",
     "content_margin": [2, 2],
-    "layer0.tint": [15,79,104],
+    "layer0.tint": [12,42,89],
     "layer0.opacity": 1.0
   },
   {
@@ -626,7 +626,7 @@
     "class": "auto_complete_label",
     "fg": [82,166,240],
     "match_fg": [82,166,240],
-    "selected_fg": [15,79,104],
+    "selected_fg": [12,42,89],
     "selected_match_fg": [0,0,0]
   },
   {
@@ -655,12 +655,12 @@
   {
     "class": "quick_panel",
     "row_padding": [20, 10],
-    "layer0.tint": [15,79,104],
+    "layer0.tint": [12,42,89],
     "layer0.opacity": 1.0
   },
   {
     "class": "quick_panel_row",
-    "layer0.tint": [15,79,104],
+    "layer0.tint": [12,42,89],
     "layer0.inner_margin": [5, 5, 5, 5],
     "layer0.opacity": 1.0
   },
@@ -673,14 +673,14 @@
     "class": "quick_panel_label",
     "fg": [82,166,240],
     "match_fg": [82,166,240],
-    "selected_fg": [15,79,104],
+    "selected_fg": [12,42,89],
     "selected_match_fg": [0,0,0]
   },
   {
     "class": "quick_panel_path_label",
     "fg": [82,166,240],
     "match_fg": [82,166,240],
-    "selected_fg": [15,79,104],
+    "selected_fg": [12,42,89],
     "selected_match_fg": [0,0,0]
   },
   {
@@ -714,7 +714,7 @@
   {
     "class": "tree_row",
     // "layer0.texture": "",
-    "layer0.tint": [15,79,104],
+    "layer0.tint": [12,42,89],
     "layer0.opacity": 0,
     "layer0.inner_margin": [1,1]
   },
@@ -935,7 +935,7 @@
   // Status bar container
   {
     "class": "status_bar",
-    "layer0.tint": [15,79,104],
+    "layer0.tint": [12,42,89],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [2, 2],
     "content_margin": [8, 8, 8, 8]

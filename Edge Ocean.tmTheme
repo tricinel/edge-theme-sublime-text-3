@@ -28,13 +28,13 @@
 				<string>#52a6f0</string>
 				
 				<key>invisibles</key>
-				<string>#0f4f68</string>
+				<string>#0c2a59</string>
 				
 				<key>lineHighlight</key>
-				<string>#0f4f68</string>
+				<string>#0c2a59</string>
 				
 				<key>selection</key>
-				<string>#265a63</string>
+				<string>#0d3d45</string>
 				
 			</dict>
 		</dict>
@@ -551,7 +551,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string></string>
+				<string>#99c7f0</string>
 				
 			</dict>
 			
@@ -669,7 +669,7 @@
 			<dict>
 				
 				<key>background</key>
-				<string>#0f4f68</string>
+				<string>#0c2a59</string>
 				
 				<key>foreground</key>
 				<string>#679bbc</string>
@@ -688,7 +688,7 @@
 			<dict>
 				
 				<key>background</key>
-				<string>#0f4f68</string>
+				<string>#0c2a59</string>
 				
 				<key>foreground</key>
 				<string>#679bbc</string>
@@ -742,7 +742,7 @@
 			<dict>
 				
 				<key>background</key>
-				<string>#0f4f68</string>
+				<string>#0c2a59</string>
 				
 				<key>foreground</key>
 				<string>#52a6f0</string>

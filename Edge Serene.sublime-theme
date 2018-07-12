@@ -22,7 +22,7 @@
   {
     "class": "grid_layout_control",
     "border_size": 1,
-    "border_color": [65,72,86]
+    "border_color": [221,201,144]
   },
   
   // TITLE BAR
