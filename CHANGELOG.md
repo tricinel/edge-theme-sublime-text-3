@@ -1,3 +1,9 @@
+###v2.1.0
+
+---
+
+- Add more syntax highlighting including Markdown, React, Typescript, JS, CSS, Python, YAML, PHP
+
 ###v2.0.1
 
 ---

@@ -137,6 +137,54 @@
 		
 		<dict>
 			<key>name</key>
+			<string>Variable Instances</string>
+			<key>scope</key>
+			<string>variable.instance,variable.other.instance,variable.readwrite.instance,variable.other.readwrite.instance,variable.other.property</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#e6ee9c</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Variable Class</string>
+			<key>scope</key>
+			<string>meta.property.class.js,variable.other.class.js,variable.other.object.js</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#5dd39e</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Object property</string>
+			<key>scope</key>
+			<string>meta.property.object.js,variable.other.property.js</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#e6ee9c</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
 			<string>keyword</string>
@@ -178,6 +226,22 @@
 				
 				<key>foreground</key>
 				<string>#fb3640</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Support Class Component</string>
+			<key>scope</key>
+			<string>support.class.component.js,support.class.component.tsx</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#b2ebf2</string>
 				
 			</dict>
 			
@@ -257,7 +321,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#a9bcd0</string>
+				<string>#b2ebf2</string>
 				
 			</dict>
 			
@@ -423,7 +487,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#f9dc5c</string>
+				<string>#ff8141</string>
 				
 			</dict>
 			
@@ -433,13 +497,13 @@
 			<key>name</key>
 			<string>CSS Unit</string>
 			<key>scope</key>
-			<string>source.css meta.property-list.css meta.property-value.css keyword.other.unit.css</string>
+			<string>source.css meta.property-list.css meta.property-value.css keyword.other.unit.css,keyword.other.unit.px.css</string>
 			
 			<key>settings</key>
 			<dict>
 				
 				<key>foreground</key>
-				<string>#f9dc5c</string>
+				<string>#a9bcd0</string>
 				
 			</dict>
 			
@@ -456,6 +520,22 @@
 				
 				<key>foreground</key>
 				<string>#ff8141</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>CSS Tag Name</string>
+			<key>scope</key>
+			<string>entity.name.tag.css</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#fb3640</string>
 				
 			</dict>
 			
@@ -527,41 +607,9 @@
 		
 		<dict>
 			<key>name</key>
-			<string>SublimeLinter Warning</string>
+			<string>This keyword</string>
 			<key>scope</key>
-			<string>sublimelinter.mark.warning</string>
-			
-			<key>settings</key>
-			<dict>
-				
-				<key>foreground</key>
-				<string>#ff8141</string>
-				
-			</dict>
-			
-		</dict>
-		
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Gutter Mark</string>
-			<key>scope</key>
-			<string>sublimelinter.gutter-mark</string>
-			
-			<key>settings</key>
-			<dict>
-				
-				<key>foreground</key>
-				<string>#cce6f4</string>
-				
-			</dict>
-			
-		</dict>
-		
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Error</string>
-			<key>scope</key>
-			<string>sublimelinter.mark.error</string>
+			<string>variable.language.this.ts,variable.language.this.js,variable.language.this.php</string>
 			
 			<key>settings</key>
 			<dict>
@@ -575,25 +623,9 @@
 		
 		<dict>
 			<key>name</key>
-			<string>Bracket Highlighter Unmatched</string>
+			<string>TypeScript Classes</string>
 			<key>scope</key>
-			<string>brackethighlighter.unmatched</string>
-			
-			<key>settings</key>
-			<dict>
-				
-				<key>foreground</key>
-				<string>#fb3640</string>
-				
-			</dict>
-			
-		</dict>
-		
-		<dict>
-			<key>name</key>
-			<string>Bracket Highlighter Quote</string>
-			<key>scope</key>
-			<string>brackethighlighter.quote</string>
+			<string>meta.class entity.name.type.class.tsx,source.ts meta.class.ts entity.name.type.class.ts</string>
 			
 			<key>settings</key>
 			<dict>
@@ -607,15 +639,79 @@
 		
 		<dict>
 			<key>name</key>
-			<string>Bracket Highlighter Curly</string>
+			<string>TypeScript Entity Name Type</string>
 			<key>scope</key>
-			<string>brackethighlighter.default</string>
+			<string>entity.name.type.tsx,entity.name.type.module.tsx</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#ff8141</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>TypeScript Method Declaration e.g. `constructor`</string>
+			<key>scope</key>
+			<string>meta.method.declaration storage.type.ts,meta.method.declaration storage.type.tsx</string>
 			
 			<key>settings</key>
 			<dict>
 				
 				<key>foreground</key>
 				<string>#ae81ff</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>TypeScript[React] Punctuation Decorators</string>
+			<key>scope</key>
+			<string>meta.tag.js meta.jsx.children.tsx</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#358aa9</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>PHP Storage Modifier</string>
+			<key>scope</key>
+			<string>storage.modifier.php</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#ffe082</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>YAML Tag Name</string>
+			<key>scope</key>
+			<string>entity.name.tag.yaml</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#b2ebf2</string>
 				
 			</dict>
 			
@@ -743,6 +839,137 @@
 				
 				<key>background</key>
 				<string>#172a3a</string>
+				
+				<key>foreground</key>
+				<string>#a9bcd0</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup Italic</string>
+			<key>scope</key>
+			<string>markup.italic</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>fontStyle</key>
+				<string>italic</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup Bold</string>
+			<key>scope</key>
+			<string>markup.bold</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#f3d3bd</string>
+				
+				<key>fontStyle</key>
+				<string>bold</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markup Bold/italic</string>
+			<key>scope</key>
+			<string>markup.italic markup.bold | markup.bold markup.italic</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>fontStyle</key>
+				<string>bold italic</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markdown Link Title and Description</string>
+			<key>scope</key>
+			<string>string.other.link.title.markdown,string.other.link.description.markdown</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#b2ebf2</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markdown Raw Code + others</string>
+			<key>scope</key>
+			<string>markup.fenced_code.block.markdown,markup.inline.raw.string.markdown</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#46b1c9</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Markdown Links</string>
+			<key>scope</key>
+			<string>markup.underline.link.markdown,markup.underline.link.image.markdown</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#8ab2f5</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>JSON Default</string>
+			<key>scope</key>
+			<string>source.json meta.structure.dictionary.json</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#a9bcd0</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>JSON Invalid</string>
+			<key>scope</key>
+			<string>source.json meta.structure.dictionary.json invalid.illegal.expected-dictionary-separator.json</string>
+			
+			<key>settings</key>
+			<dict>
 				
 				<key>foreground</key>
 				<string>#a9bcd0</string>
@@ -890,6 +1117,102 @@
 				
 				<key>foreground</key>
 				<string>#ff8141</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.warning</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#ff8141</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Gutter Mark</string>
+			<key>scope</key>
+			<string>sublimelinter.gutter-mark</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#cce6f4</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Error</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.error</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#fb3640</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Bracket Highlighter Unmatched</string>
+			<key>scope</key>
+			<string>brackethighlighter.unmatched</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#fb3640</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Bracket Highlighter Quote</string>
+			<key>scope</key>
+			<string>brackethighlighter.quote</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#5dd39e</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Bracket Highlighter Curly</string>
+			<key>scope</key>
+			<string>brackethighlighter.default</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#ae81ff</string>
 				
 			</dict>
 			
