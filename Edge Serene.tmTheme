@@ -22,10 +22,10 @@
 				<string>#fdf6e3</string>
 				
 				<key>caret</key>
-				<string>#805330</string>
+				<string>#633f24</string>
 				
 				<key>foreground</key>
-				<string>#805330</string>
+				<string>#633f24</string>
 				
 				<key>invisibles</key>
 				<string>#eae1cb</string>
@@ -65,7 +65,39 @@
 			<dict>
 				
 				<key>foreground</key>
+				<string>#138232</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>String Quoted</string>
+			<key>scope</key>
+			<string>string.quoted,variable.other.readwrite.js</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
 				<string>#4b70b8</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>JS Constant/Variable name</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.js</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#ad5c00</string>
 				
 			</dict>
 			
@@ -193,7 +225,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#da2731</string>
+				<string>#c41922</string>
 				
 			</dict>
 			
@@ -241,7 +273,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#da2731</string>
+				<string>#c41922</string>
 				
 			</dict>
 			
@@ -321,7 +353,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#da2731</string>
+				<string>#c41922</string>
 				
 			</dict>
 			
@@ -417,7 +449,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#da2731</string>
+				<string>#c41922</string>
 				
 			</dict>
 			
@@ -433,7 +465,7 @@
 			<dict>
 				
 				<key>background</key>
-				<string>#da2731</string>
+				<string>#c41922</string>
 				
 				<key>foreground</key>
 				<string>#fdf6e3</string>
@@ -519,7 +551,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#805330</string>
+				<string>#633f24</string>
 				
 			</dict>
 			
@@ -615,7 +647,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#da2731</string>
+				<string>#c41922</string>
 				
 			</dict>
 			
@@ -711,7 +743,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#da2731</string>
+				<string>#c41922</string>
 				
 			</dict>
 			
@@ -730,7 +762,7 @@
 				<string>bold</string>
 				
 				<key>foreground</key>
-				<string>#da2731</string>
+				<string>#c41922</string>
 				
 			</dict>
 			
@@ -768,7 +800,7 @@
 				<string>#eae1cb</string>
 				
 				<key>foreground</key>
-				<string>#849292</string>
+				<string>#707c7c</string>
 				
 			</dict>
 			
@@ -787,7 +819,7 @@
 				<string>#eae1cb</string>
 				
 				<key>foreground</key>
-				<string>#849292</string>
+				<string>#707c7c</string>
 				
 			</dict>
 			
@@ -806,7 +838,7 @@
 				<string>italic</string>
 				
 				<key>foreground</key>
-				<string>#805330</string>
+				<string>#633f24</string>
 				
 			</dict>
 			
@@ -841,7 +873,7 @@
 				<string>#eae1cb</string>
 				
 				<key>foreground</key>
-				<string>#805330</string>
+				<string>#633f24</string>
 				
 			</dict>
 			
@@ -873,7 +905,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#805330</string>
+				<string>#633f24</string>
 				
 				<key>fontStyle</key>
 				<string>bold</string>
@@ -956,7 +988,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#805330</string>
+				<string>#633f24</string>
 				
 			</dict>
 			
@@ -972,7 +1004,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#805330</string>
+				<string>#633f24</string>
 				
 			</dict>
 			
@@ -1020,7 +1052,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#805330</string>
+				<string>#633f24</string>
 				
 			</dict>
 			
@@ -1132,7 +1164,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#ad5c00</string>
+				<string>#a95e08</string>
 				
 			</dict>
 			
@@ -1164,7 +1196,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#da2731</string>
+				<string>#c41922</string>
 				
 			</dict>
 			
@@ -1180,7 +1212,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#da2731</string>
+				<string>#c41922</string>
 				
 			</dict>
 			
@@ -1292,7 +1324,7 @@
 			<dict>
 				
 				<key>foreground</key>
-				<string>#da2731</string>
+				<string>#c41922</string>
 				
 			</dict>
 			

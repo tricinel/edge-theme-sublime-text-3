@@ -65,7 +65,39 @@
 			<dict>
 				
 				<key>foreground</key>
+				<string>#b2ebf2</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>String Quoted</string>
+			<key>scope</key>
+			<string>string.quoted,variable.other.readwrite.js</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
 				<string>#ecc6b8</string>
+				
+			</dict>
+			
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>JS Constant/Variable name</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.js</string>
+			
+			<key>settings</key>
+			<dict>
+				
+				<key>foreground</key>
+				<string>#65c9ed</string>
 				
 			</dict>
 			

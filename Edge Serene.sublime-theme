@@ -31,7 +31,7 @@
   
   {
     "class": "title_bar",
-    "fg": [128,83,48],
+    "fg": [99,63,36],
     "bg": [253,246,227]
   },
   
@@ -41,7 +41,7 @@
   {
    "class": "label_control",
    "parents": [{"class": "button_control"}],
-   "color": [128,83,48],
+   "color": [99,63,36],
   },
   {
    "class": "label_control",
@@ -89,7 +89,7 @@
    ========================================================================= */
   {
     "class": "dialog",
-    "layer0.tint": [128,83,48],
+    "layer0.tint": [99,63,36],
     "layer0.opacity": 1.0
   },
   
@@ -564,7 +564,7 @@
   {
     "class": "minimap_control",
     "settings": ["!always_show_minimap_viewport"],
-    "viewport_color": [128,83,48,5],
+    "viewport_color": [99,63,36,5],
     "viewport_opacity": {
       "target": 0.0,
       "speed": 10.0,
@@ -592,7 +592,7 @@
   {
     "class": "label_control",
     "parents": [{"class": "panel_control"}],
-    "color": [128,83,48],
+    "color": [99,63,36],
   },
   {
     "class": "label_control",
@@ -609,7 +609,7 @@
   {
     "class": "mini_quick_panel_row",
     "attributes": ["selected"],
-    "layer0.tint": [128,83,48],
+    "layer0.tint": [99,63,36],
   },
   // Code Completion Dropdown
   {
@@ -624,14 +624,14 @@
   },
   {
     "class": "auto_complete_label",
-    "fg": [128,83,48],
-    "match_fg": [128,83,48],
+    "fg": [99,63,36],
+    "match_fg": [99,63,36],
     "selected_fg": [234,225,203],
     "selected_match_fg": [0,0,0]
   },
   {
     "class": "table_row",
-    "layer0.tint": [128,83,48],
+    "layer0.tint": [99,63,36],
     "layer0.opacity": 0.0,
     "layer0.inner_margin": [3, 1]
   },
@@ -667,19 +667,19 @@
   {
     "class": "quick_panel_row",
     "attributes": ["selected"],
-    "layer0.tint": [128,83,48],
+    "layer0.tint": [99,63,36],
   },
   {
     "class": "quick_panel_label",
-    "fg": [128,83,48],
-    "match_fg": [128,83,48],
+    "fg": [99,63,36],
+    "match_fg": [99,63,36],
     "selected_fg": [234,225,203],
     "selected_match_fg": [0,0,0]
   },
   {
     "class": "quick_panel_path_label",
-    "fg": [128,83,48],
-    "match_fg": [128,83,48],
+    "fg": [99,63,36],
+    "match_fg": [99,63,36],
     "selected_fg": [234,225,203],
     "selected_match_fg": [0,0,0]
   },
@@ -727,7 +727,7 @@
   // Sidebar heading
   {
     "class": "sidebar_heading",
-    "color": [128,83,48]
+    "color": [99,63,36]
   },
   // Sidebar heading selected
   {
@@ -738,7 +738,7 @@
   // Sidebar entry
   {
     "class": "sidebar_label",
-    "color": [128,83,48]
+    "color": [99,63,36]
   },
   {
     "class": "sidebar_label",
@@ -769,7 +769,7 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["expanded"]}],
-    "color": [128,83,48]
+    "color": [99,63,36]
   },
   {
     "class": "sidebar_label",
@@ -778,7 +778,7 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["hover"]}],
-    "color": [128,83,48]
+    "color": [99,63,36]
   },
   {
     "class": "sidebar_label",
@@ -788,7 +788,7 @@
   {
     "class": "sidebar_label",
     "parents": [{"class": "tree_row","attributes": ["selected"]}],
-    "color": [128,83,48]
+    "color": [99,63,36]
   },
   // File icons and folder
   {
@@ -910,7 +910,7 @@
   },
   {
     "class": "puck_control",
-    "layer0.tint": [128,83,48],
+    "layer0.tint": [99,63,36],
     "layer0.opacity": 0.0,
     "layer0.inner_margin": [1, 8, 1, 8],
     "layer1.texture": "Edge Theme/assets/icons/serene/thumb-vertical.png",
@@ -921,7 +921,7 @@
   {
     "class": "puck_control",
     "attributes": ["horizontal"],
-    "layer0.tint": [128,83,48],
+    "layer0.tint": [99,63,36],
     "layer0.opacity": 0.0,
     "layer0.inner_margin": [8, 1, 8, 1],
     "layer1.texture": "Edge Theme/assets/icons/serene/thumb-horizontal.png",
@@ -949,7 +949,7 @@
   {
     "class": "label_control",
     "parents": [{"class": "status_bar"}],
-    "color": [128,83,48]
+    "color": [99,63,36]
   },
   {
     "class": "label_control",
@@ -1035,7 +1035,7 @@
   {
     "class": "tab_label",
     "fade": true,
-    "fg": [128,83,48]
+    "fg": [99,63,36]
   },
   {
     "class": "tab_label",
@@ -1045,7 +1045,7 @@
   {
     "class": "tab_label",
     "parents": [{"class": "tab_control","attributes": ["hover"]}],
-    "fg": [128,83,48]
+    "fg": [99,63,36]
   },
   {
     "class": "tab_label",
@@ -1064,7 +1064,7 @@
   // Tooltip container
   {
     "class": "tool_tip_control",
-    "layer0.tint": [128,83,48],
+    "layer0.tint": [99,63,36],
     "layer0.inner_margin": [1, 1],
     "layer0.opacity": 0.95,
     "content_margin": [3, 3]
