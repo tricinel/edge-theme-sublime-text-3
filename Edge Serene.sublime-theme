@@ -41,7 +41,7 @@
   {
    "class": "label_control",
    "parents": [{"class": "button_control"}],
-   "color": [99,63,36],
+   "color": [99,63,36]
   },
   {
    "class": "label_control",
